@@ -14,19 +14,10 @@ def prime?(number)
       if number % x == 0 
         return false
       end
-    end
+     end
     return true
   end
 end
 
-
-
-
-
-
-
 puts prime?(9)
-
-
-
 
